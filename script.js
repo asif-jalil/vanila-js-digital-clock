@@ -16,6 +16,9 @@ function updateClock() {
 
     if (hr > 12) {
         hr = hr - 12;
+    }
+
+    if (hr >= 12) {
         pe = "PM";
     }
 

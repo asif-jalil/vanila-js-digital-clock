@@ -63,11 +63,15 @@ body {
 
 @media (max-width: 400px) {
     .datetime {
-        width: 280px;
+        width: 290px;
     }
 
     .time {
-        font-size: 45px;
+        font-size: 42px;
+    }
+
+    .time span:last-child {
+        font-size: 24px;
     }
 
     .date {
